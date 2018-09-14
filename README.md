@@ -1,12 +1,16 @@
 # Blynk + Node-RED
 
+- The most popular mobile app for the IOT. Works with anything: ESP8266, Arduino, Raspberry Pi, SparkFun and others....from [Blynk](https://www.blynk.cc/)
+- Flow-based programming for the Internet of Things ...from [Node-RED](https://nodered.org/)
+
 ## Getting Started
 
-TBD
+- [Blynk Getting Started](https://www.blynk.cc/getting-started/)
+- [Node-RED Getting Started](https://nodered.org/#get-started)
 
 ## Example : LCD, Gauge, Live Chart
 
-### Blynk App
+### Blynk App to monitor IoT sensor data
 
 <p align="center">
 <img src="https://github.com/phyunsj/blynk-node-red/blob/master/blynk-example1.gif" width="300px"/>
@@ -18,12 +22,14 @@ TBD
   <img src="https://github.com/phyunsj/blynk-node-red/blob/master/chart_vpin_3_4.png" width="150px"/>
 </p>
 
-###  Node-RED
+###  Node-RED to collect and push IoT sensor data
+
+There are no real sensors reporting the actual data. All data are simulated from Node-REd function node.
 
 > npm install node-red-contrib-blynk-ws --global
 
 <p align="center">
-<img src="https://github.com/phyunsj/blynk-node-red/blob/master/node-red-flow-blynk-example1.png" width="600px"/>
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/node-red-flow-example1.png" width="600px"/>
 </p>
 
 ```
