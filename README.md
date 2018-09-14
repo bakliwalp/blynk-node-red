@@ -23,7 +23,7 @@ TBD
 > npm install node-red-contrib-blynk-ws --global
 
 <p align="center">
-<img src="https://github.com/phyunsj/blynk-node-red/blob/master/node-red-flow-example1.png" width="600px"/>
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/node-red-flow-blynk-example1.png" width="600px"/>
 </p>
 
 ```
