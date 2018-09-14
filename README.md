@@ -29,7 +29,7 @@
 
 ###  Node-RED to collect and push IoT sensor data
 
-There are no real sensors reporting the actual data. All data are simulated from Node-RED function node.
+All data are simulated from Node-RED function node. Must acquire `AUTH_TOKEN` to work.
 
 > npm install node-red-contrib-blynk-ws --global
 
