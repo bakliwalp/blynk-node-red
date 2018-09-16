@@ -47,8 +47,6 @@ All data are simulated from Node-RED function node. Must acquire `AUTH_TOKEN` to
 
 Review `msg` format of each [node-red-contrib-blynk-ws/nodes](https://github.com/gablau/node-red-contrib-blynk-ws/tree/master/nodes).
 
-As of 9/16/2018, 
-
 - [lcd node](https://github.com/gablau/node-red-contrib-blynk-ws/blob/master/nodes/blynk-ws-out-lcd.js),
 
 text, x, y for the first row display. text1, x1, y1 for the second row display. No `payload`. 
