@@ -52,6 +52,14 @@ return msg;
 
 `write event` node returns `msg.arrayOfValues` for `x`,`y`.
 
+- Pull Request from Virtual Pin 3 (Blynk App)
+
+`read event` node returns a pin number. 
+
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/pull_read_event_vpin3.png" width="300px"/>
+</p>
+
 **Node-RED flow**
 
 ```
