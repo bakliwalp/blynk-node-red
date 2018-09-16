@@ -75,5 +75,5 @@ return msg;
  Send `msg.payload` to `notify` node. The content of `msg.payload` will be appeared on Blynk App. 
 
 <p align="center">
-<img src="https://github.com/phyunsj/blynk-node-red/blob/master/send_notofication_vpin4.png" width="600px"/>
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/send_notification_vpin4.png" width="600px"/>
 </p>
