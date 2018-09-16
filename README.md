@@ -50,7 +50,11 @@ return msg;
 ```
 - JoyStick if `MERGE` Output is selected. 
 
-`write event` node returns `msg.arrayOfValues` for `x`,`y`.
+`write event` node returns `msg.arrayOfValues` for [`x`,`y`].
+
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/joystick_write_event_vpin10.png" width="600px"/>
+</p>
 
 - Pull Request from Virtual Pin 3 (Blynk App)
 
