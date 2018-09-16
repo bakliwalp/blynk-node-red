@@ -57,7 +57,7 @@ return msg;
 `read event` node returns a pin number. 
 
 <p align="center">
-<img src="https://github.com/phyunsj/blynk-node-red/blob/master/pull_read_event_vpin3.png" width="300px"/>
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/pull_read_event_vpin3.png" width="600px"/>
 </p>
 
 **Node-RED flow**
