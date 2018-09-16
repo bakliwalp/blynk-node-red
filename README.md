@@ -75,5 +75,15 @@ return msg;
  Send `msg.payload` to `notify` node. The content of `msg.payload` will be appeared on Blynk App. 
 
 <p align="center">
-<img src="https://github.com/phyunsj/blynk-node-red/blob/master/send_notification_vpin4.png" width="500px"/>
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/send_notification_vpin4.png" width="400px"/>
 </p>
+
+```
+var value = Math.floor(Math.random()*40+ 60);
+var new_msg = {payload : value};
+// OUTPUT 1 -> VPIN4
+// OUTPUT 2 -> notify
+// return [ OUTPUT1, OUTPUT2 ]
+if ( value > 90 || value < 70 ) return [new_msg, { payload : "Out of your comfort zone. Please make the necessary adjustments."}]
+else return [new_msg, null ];
+```
