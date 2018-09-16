@@ -84,6 +84,7 @@ var new_msg = {payload : value};
 // OUTPUT 1 -> VPIN4
 // OUTPUT 2 -> notify
 // return [ OUTPUT1, OUTPUT2 ]
-if ( value > 90 || value < 70 ) return [new_msg, { payload : "Out of your comfort zone. Please make the necessary adjustments."}]
+if ( value > 90 || value < 70 ) 
+     return [new_msg, { payload : "Out of your comfort zone. Please make the necessary adjustments."}]
 else return [new_msg, null ];
 ```
