@@ -69,3 +69,11 @@ return msg;
 <p align="center">
 <img src="https://github.com/phyunsj/blynk-node-red/blob/master/pull_read_event_vpin3.png" width="600px"/>
 </p>
+
+- Send a notification to Blynk App
+
+ Send `msg.payload` to `notify` node. The content of `msg.payload` will be appeared on Blynk App. 
+
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/send_notofication_vpin4.png" width="600px"/>
+</p>
