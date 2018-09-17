@@ -91,5 +91,5 @@ else return [new_msg, null ];
 ```
 
 <p align="center">
-<img src="https://github.com/phyunsj/blynk-node-red/blob/master/blynk_notification_vpin4.jpg" width="400px"/>
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/blynk_notification_vpin4.jpg" width="200px"/>
 </p>
