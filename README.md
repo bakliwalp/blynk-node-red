@@ -72,12 +72,13 @@ return msg;
 
 - Send a notification to Blynk App
 
- Send `msg.payload` to `notify` node. The content of `msg.payload` will be appeared on Blynk App. 
+The content of `msg.payload` will be appeared on Blynk App. 
 
 <p align="center">
 <img src="https://github.com/phyunsj/blynk-node-red/blob/master/send_notification_vpin4.png" width="400px"/>
 </p>
 
+In `function` node,
 ```
 var value = Math.floor(Math.random()*40+ 60);
 var new_msg = {payload : value};
@@ -88,3 +89,7 @@ if ( value > 90 || value < 70 )
      return [new_msg, { payload : "Out of your comfort zone. Please make the necessary adjustments."}]
 else return [new_msg, null ];
 ```
+
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/blynk_notification_vpin4.jpg" width="400px"/>
+</p>
