@@ -48,7 +48,15 @@ Monitor & Control Xiaomi devices ( Motion Detector, Window/Door Sensor, Temperat
 
 > npm install node-red-contrib-xiaomi-miio 
 
+I don't own any Xiaomi device. Just an imaginary scenario.
 
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/blynk_home_automation.png" width="600px"/>
+</p>
+
+- [miIO Device Library](https://github.com/aholstenson/miio)
+- [miIO device library for node red](https://github.com/aformusatii/node-red-contrib-xiaomi-miio)
+- [node-red extension to integrate Xiaomi gateway devices](https://github.com/hrietman/node-red-contrib-xiaomi-devices)
 
 ##  FYI : node-red-contrib-blynk-ws/nodes
 
