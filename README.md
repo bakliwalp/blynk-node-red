@@ -48,7 +48,7 @@ Monitor & Control Xiaomi devices ( Motion Detector, Window/Door Sensor, Temperat
 
 > npm install node-red-contrib-xiaomi-miio 
 
-I don't own any Xiaomi devices. Just an imaginary scenario.
+I don't own any Xiaomi devices. Just an imaginary scenario. Use Node-RED as a mediator to integrate Home Automation Kit.
 
 <p align="center">
 <img src="https://github.com/phyunsj/blynk-node-red/blob/master/blynk_home_automation.png" width="600px"/>
