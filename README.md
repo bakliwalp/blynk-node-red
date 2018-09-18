@@ -48,7 +48,7 @@ Monitor & Control Xiaomi devices ( Motion Detector, Window/Door Sensor, Temperat
 
 > npm install node-red-contrib-xiaomi-miio 
 
-Just an imaginary scenario(I don't own any Xiaomi devices). Use **Node-RED** as a mediator to integrate Home Automation Kit. `miio-senssor-ht`(Temperature and Humidity Sensor) returns temperature, humidity and voltage.
+Just an imaginary scenario(I don't own any Xiaomi devices). Use `blynk-ws` to connect between Home Automation Kit and Blynk server (local or cloud). `miio-senssor-ht`(Temperature and Humidity Sensor) returns temperature, humidity and voltage.
 
 <p align="center">
 <img src="https://github.com/phyunsj/blynk-node-red/blob/master/blynk_home_automation.png" width="600px"/>
