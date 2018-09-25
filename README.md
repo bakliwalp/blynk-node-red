@@ -44,6 +44,10 @@ All data are simulated from Node-RED function node. Must acquire `AUTH_TOKEN` to
 ```
 ## Example 2. Home Automation with Xiaomi miIO devices
 
+<p align="center">
+<img src="https://github.com/phyunsj/blynk-node-red/blob/master/blynk_nodered_mi.png" width="300px"/>
+</p>
+
 Monitor & Control Xiaomi devices ( Motion Detector, Window/Door Sensor, Temperature and Humidity Sensor, Air Purifier, etc) via Blynk App
 
 > npm install node-red-contrib-xiaomi-miio 
